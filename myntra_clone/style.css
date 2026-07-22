@@ -1,0 +1,167 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#header {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+}
+
+#power {
+  font-size: 10px;
+}
+
+#logo {
+  position: relative;
+  left: 27px;
+  padding: 14px 0px 0px 0px;
+  width: 120px;
+  height: 65px;
+}
+
+#option {
+  padding: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.options {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #242c3f;
+  margin-right: 20px;
+}
+
+#desktop-search {
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: 30px;
+  width: 450px;
+  position: relative;
+  top: 20px;
+  padding-top: 10px;
+}
+
+.srchInput {
+  border: none;
+  outline: none;
+  background: none;
+  width: 400px;
+  height: 20px;
+}
+
+/* just trying  */
+/* .srchInput:focus{
+    border: none;
+    outline:none;
+    background: none;
+    width: 400px;
+    height: 20px;
+} */
+
+.srch-icon {
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+  margin: 0px 8px;
+}
+
+#power{
+  color: crimson;
+}
+
+#desktop-action {
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+  padding: 0px 10px;
+}
+
+.desktop-action-options {
+  margin-right: 16px;
+}
+
+.action-icon {
+  position: relative;
+  left: 8px;
+}
+
+.web-body{
+  background-color: #f9f9f9;
+  padding: 8px 8px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 25px 25px;
+}
+
+.card {
+  background-color: #ffedde;
+  border: 6px solid #ffc591;
+  cursor: pointer;
+}
+
+.card-img {
+  margin: 0px;
+  padding: 1px 2px 0px 2px;
+  height: 200px;
+  width: 200px;
+  /* border: none; */
+}
+
+.card-body {
+  margin: 0px;
+  padding: 1px;
+  text-align: center;
+}
+
+.card-body-item-h3 {
+  margin: 0px 0px 5px 0px;
+  padding: 0px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.card-body-item-h1 {
+  font-size: 27px;
+  font-weight: 900;
+  margin: 0px;
+  padding: 5px 0px;
+}
+
+#footer {
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.footer-item {
+  margin: 0px;
+  padding-top: 8px;
+}
+
+.card-body-item-p{
+  font-weight: 700;
+  font-size: 18px;
+}
+
+
+#sort-button, #filter-button{
+  margin: 0px 8px;
+  border: 1px solid gray;
+  cursor: pointer;
+  padding: 0px 8px;
+  font-size: 14px;
+  border-radius: 14px;
+  font-size: 16px;
+}

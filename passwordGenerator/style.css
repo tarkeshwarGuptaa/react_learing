@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#e7f5ea;
+}
+
+#root{
+    width: 500px;
+    height: 175px;
+    background-color: #a8d5b2 ;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+
+#input-box{
+    padding: 5px 8px;
+    text-align: left;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 500;
+}

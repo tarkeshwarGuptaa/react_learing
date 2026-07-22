@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+}
+
+#stop-watch{
+    background-color:rgb(172, 237, 237);
+    height: 125px;
+    width: 300px;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+}
+
+.btn{
+    margin-right: 16px;
+    height: 32px;
+    width: 60px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid gray;
+    border-radius: 8px;
+    cursor: pointer;
+}

@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 5px 0px;
+}
+
+#logo{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#main{
+    text-align: center;
+    padding: 8px;
+}
+
+input{
+    height: 30px;
+    font-size: 20px;
+    padding-left: 2vh;
+}
+
+button{
+    background-color: cornflowerblue ;
+    color: white;
+    height: 30px;
+    margin-left: 1vh;
+    border-radius: 8px;
+}
+
+#card-container{
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    background-color: #f9f9f9;
+}
+
+.cards{
+   height: 325px;
+   border: 2px solid gray;
+   background-color: aliceblue;
+   text-align: center;
+   border-bottom-right-radius: 8px;
+   border-bottom-left-radius: 8px;
+}
+
+img{
+    height:225px;
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#footer{
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 5px 0px 0px 0px;
+}
+
+.footer-items{
+    margin: 0px 0px 5px 0px;
+    font-size: 20px;
+    font-weight:600;
+}

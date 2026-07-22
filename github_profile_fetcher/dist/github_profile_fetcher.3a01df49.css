@@ -1,0 +1,84 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  color: #fff;
+  background-color: #6495ed;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+  font-size: 24px;
+  font-weight: 900;
+  display: flex;
+}
+
+#logo {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  text-align: center;
+  padding: 8px;
+}
+
+input {
+  height: 30px;
+  padding-left: 2vh;
+  font-size: 20px;
+}
+
+button {
+  color: #fff;
+  background-color: #6495ed;
+  border-radius: 8px;
+  height: 30px;
+  margin-left: 1vh;
+}
+
+#card-container {
+  background-color: #f9f9f9;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  padding: 24px;
+  display: flex;
+}
+
+.cards {
+  text-align: center;
+  background-color: #f0f8ff;
+  border: 2px solid gray;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  height: 325px;
+}
+
+img {
+  border-radius: 50%;
+  height: 225px;
+}
+
+a {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#footer {
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 5px 0 0;
+}
+
+.footer-items {
+  margin: 0 0 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=github_profile_fetcher.3a01df49.css.map */
